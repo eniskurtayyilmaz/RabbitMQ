@@ -15,7 +15,7 @@ namespace CL_RabbitConnection
                 HostName = _hostName,
                 UserName = _name,
                 Password = _password,
-                VirtualHost = "serifHost"
+                VirtualHost = "kurtayHost"
             };
 
             return connectionFactory.CreateConnection();
